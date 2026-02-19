@@ -9274,8 +9274,8 @@
           "$id": "1589",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": 162.666656,
-            "y": 50.0
+            "x": 162.666672,
+            "y": 44.0
           },
           "StepType": "default",
           "Guid": "8e0fd7a8-1bdf-40ee-9dc5-de2d1db4f1be"
@@ -9304,7 +9304,7 @@
                       "AudioData": {
                         "$id": "1596",
                         "$type": "VRBuilder.Core.Audio.ResourceAudio, VRBuilder.Core",
-                        "ResourcesPath": ""
+                        "ResourcesPath": "AUDIO ETAPE 3"
                       },
                       "ExecutionStages": 1,
                       "Volume": 1.0,
@@ -10079,31 +10079,177 @@
           },
           "Metadata": null
         }
+      },
+      {
+        "$id": "1726",
+        "$type": "VRBuilder.Core.Step, VRBuilder.Core",
+        "StepMetadata": {
+          "$id": "1727",
+          "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
+          "Position": {
+            "x": 174.0,
+            "y": 80.0
+          },
+          "StepType": "default",
+          "Guid": "22a2d295-2b15-4b62-ba22-6af72c294d64"
+        },
+        "Data": {
+          "$id": "1728",
+          "$type": "VRBuilder.Core.Step+EntityData, VRBuilder.Core",
+          "Name": "audio étape 4 connecter",
+          "Description": null,
+          "Behaviors": {
+            "$id": "1729",
+            "$type": "VRBuilder.Core.BehaviorCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "1730",
+              "$type": "VRBuilder.Core.BehaviorCollection+EntityData, VRBuilder.Core",
+              "Behaviors": {
+                "$id": "1731",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.IBehavior, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "1732",
+                    "$type": "VRBuilder.Core.Behaviors.PlayAudioBehavior, VRBuilder.Core",
+                    "Data": {
+                      "$id": "1733",
+                      "$type": "VRBuilder.Core.Behaviors.PlayAudioBehavior+EntityData, VRBuilder.Core",
+                      "AudioData": {
+                        "$id": "1734",
+                        "$type": "VRBuilder.Core.Audio.ResourceAudio, VRBuilder.Core",
+                        "ResourcesPath": "étape 4 connecter"
+                      },
+                      "ExecutionStages": 1,
+                      "Volume": 1.0,
+                      "Metadata": null,
+                      "IsBlocking": true
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "Transitions": {
+            "$id": "1735",
+            "$type": "VRBuilder.Core.TransitionCollection, VRBuilder.Core",
+            "Data": {
+              "$id": "1736",
+              "$type": "VRBuilder.Core.TransitionCollection+EntityData, VRBuilder.Core",
+              "Transitions": {
+                "$id": "1737",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.ITransition, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "1738",
+                    "$type": "VRBuilder.Core.Transition, VRBuilder.Core",
+                    "Data": {
+                      "$id": "1739",
+                      "$type": "VRBuilder.Core.Transition+EntityData, VRBuilder.Core",
+                      "Conditions": {
+                        "$id": "1740",
+                        "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Conditions.ICondition, VRBuilder.Core]], mscorlib",
+                        "$values": []
+                      },
+                      "TargetStep": null,
+                      "Mode": null,
+                      "IsCompleted": false,
+                      "Metadata": {
+                        "$id": "1741",
+                        "$type": "VRBuilder.Core.Metadata, VRBuilder.Core",
+                        "values": {
+                          "$id": "1742",
+                          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                          "Conditions": {
+                            "$id": "1743",
+                            "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
+                            "VRBuilder.Core.Attributes.FoldableAttribute": true,
+                            "VRBuilder.Core.Attributes.ReorderableListOfAttribute": {
+                              "$id": "1744",
+                              "$type": "VRBuilder.Core.Attributes.ListOfAttribute+Metadata, VRBuilder.Core",
+                              "ChildAttributes": {
+                                "$id": "1745",
+                                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Attributes.MetadataAttribute, VRBuilder.Core]], mscorlib",
+                                "$values": [
+                                  {
+                                    "$id": "1746",
+                                    "$type": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.FoldableAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.FoldableAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "1747",
+                                    "$type": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.HelpAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.HelpAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  },
+                                  {
+                                    "$id": "1748",
+                                    "$type": "VRBuilder.Core.Attributes.MenuAttribute, VRBuilder.Core",
+                                    "Name": "VRBuilder.Core.Attributes.MenuAttribute",
+                                    "TypeId": "VRBuilder.Core.Attributes.MenuAttribute, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                ]
+                              },
+                              "ChildMetadata": {
+                                "$id": "1749",
+                                "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib",
+                                "$values": []
+                              }
+                            },
+                            "VRBuilder.Core.Attributes.ExtendableListAttribute": {
+                              "$id": "1750",
+                              "$type": "VRBuilder.Core.Attributes.ExtendableListAttribute+SerializedTypeWrapper, VRBuilder.Core",
+                              "Type": "VRBuilder.Core.Conditions.ICondition, VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "Mode": null,
+          "ToUnlock": {
+            "$id": "1751",
+            "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.Behaviors.LockablePropertyReference, VRBuilder.Core]], mscorlib",
+            "$values": []
+          },
+          "TagsToUnlock": {
+            "$id": "1752",
+            "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[System.Collections.Generic.IEnumerable`1[[System.Type, mscorlib]], mscorlib]], mscorlib"
+          },
+          "GroupsToUnlock": {
+            "$ref": "1752"
+          },
+          "Metadata": null
+        }
       }
     ]
   },
   "Process": {
-    "$id": "1726",
+    "$id": "1753",
     "$type": "VRBuilder.Core.Process, VRBuilder.Core",
     "CurrentStep": null,
     "ProcessMetadata": {
-      "$id": "1727",
+      "$id": "1754",
       "$type": "VRBuilder.Core.ProcessMetadata, VRBuilder.Core",
       "StringLocalizationTable": null,
       "Guid": "889c2ba3-5c9a-4384-b684-45b147b17f88"
     },
     "Data": {
-      "$id": "1728",
+      "$id": "1755",
       "$type": "VRBuilder.Core.Process+EntityData, VRBuilder.Core",
       "Chapters": {
-        "$id": "1729",
+        "$id": "1756",
         "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IChapter, VRBuilder.Core]], mscorlib",
         "$values": [
           {
-            "$id": "1730",
+            "$id": "1757",
             "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
             "ChapterMetadata": {
-              "$id": "1731",
+              "$id": "1758",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": null,
               "EntryNodePosition": {
@@ -10112,7 +10258,7 @@
               },
               "Guid": "c71b2cce-bdfc-46d3-aa3f-bd8ec42d0559",
               "ViewTransform": {
-                "$id": "1732",
+                "$id": "1759",
                 "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
                 "Position": {
                   "x": 308.666656,
@@ -10127,14 +10273,14 @@
               }
             },
             "Data": {
-              "$id": "1733",
+              "$id": "1760",
               "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
               "Name": "panne audio",
               "FirstStep": {
                 "$ref": "4"
               },
               "Steps": {
-                "$id": "1734",
+                "$id": "1761",
                 "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
                 "$values": [
                   {
@@ -10148,10 +10294,10 @@
             }
           },
           {
-            "$id": "1735",
+            "$id": "1762",
             "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
             "ChapterMetadata": {
-              "$id": "1736",
+              "$id": "1763",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": null,
               "EntryNodePosition": {
@@ -10160,11 +10306,11 @@
               },
               "Guid": "d14014cd-2aa6-4aa1-9403-9547e7b509c5",
               "ViewTransform": {
-                "$id": "1737",
+                "$id": "1764",
                 "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
                 "Position": {
-                  "x": -3134.66675,
-                  "y": -1100.0,
+                  "x": 118.0,
+                  "y": -197.333328,
                   "z": 0.0
                 },
                 "Scale": {
@@ -10175,14 +10321,14 @@
               }
             },
             "Data": {
-              "$id": "1738",
+              "$id": "1765",
               "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
               "Name": "debrancher les cables",
               "FirstStep": {
                 "$ref": "90"
               },
               "Steps": {
-                "$id": "1739",
+                "$id": "1766",
                 "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
                 "$values": [
                   {
@@ -10337,10 +10483,10 @@
             }
           },
           {
-            "$id": "1740",
+            "$id": "1767",
             "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
             "ChapterMetadata": {
-              "$id": "1741",
+              "$id": "1768",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": null,
               "EntryNodePosition": {
@@ -10349,7 +10495,7 @@
               },
               "Guid": "6b1fc0e3-7f6b-4777-939b-79f4cf60a365",
               "ViewTransform": {
-                "$id": "1742",
+                "$id": "1769",
                 "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
                 "Position": {
                   "x": 450.0,
@@ -10364,14 +10510,14 @@
               }
             },
             "Data": {
-              "$id": "1743",
+              "$id": "1770",
               "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
               "Name": "EXTRAIRE (Dévisser) la carte.",
               "FirstStep": {
                 "$ref": "1483"
               },
               "Steps": {
-                "$id": "1744",
+                "$id": "1771",
                 "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
                 "$values": [
                   {
@@ -10394,10 +10540,10 @@
             }
           },
           {
-            "$id": "1745",
+            "$id": "1772",
             "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
             "ChapterMetadata": {
-              "$id": "1746",
+              "$id": "1773",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": null,
               "EntryNodePosition": {
@@ -10406,29 +10552,29 @@
               },
               "Guid": "c5eaacfa-92f8-4b77-b0ce-d4beace1c894",
               "ViewTransform": {
-                "$id": "1747",
+                "$id": "1774",
                 "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
                 "Position": {
-                  "x": 400.0,
-                  "y": 75.3333359,
+                  "x": 253.333328,
+                  "y": 21.333334,
                   "z": 0.0
                 },
                 "Scale": {
-                  "x": 1.0,
-                  "y": 1.0,
+                  "x": 0.657516241,
+                  "y": 0.657516241,
                   "z": 1.0
                 }
               }
             },
             "Data": {
-              "$id": "1748",
+              "$id": "1775",
               "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
               "Name": "Insérer (Visser)  la carte de remplacement.",
               "FirstStep": {
                 "$ref": "1588"
               },
               "Steps": {
-                "$id": "1749",
+                "$id": "1776",
                 "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
                 "$values": [
                   {
@@ -10449,11 +10595,56 @@
                 ]
               }
             }
+          },
+          {
+            "$id": "1777",
+            "$type": "VRBuilder.Core.Chapter, VRBuilder.Core",
+            "ChapterMetadata": {
+              "$id": "1778",
+              "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
+              "LastSelectedStep": null,
+              "EntryNodePosition": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "Guid": "d319a44a-aa7c-48a9-8452-6f4060777ae4",
+              "ViewTransform": {
+                "$id": "1779",
+                "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
+                "Position": {
+                  "x": 400.0,
+                  "y": -34.6666679,
+                  "z": 0.0
+                },
+                "Scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              }
+            },
+            "Data": {
+              "$id": "1780",
+              "$type": "VRBuilder.Core.Chapter+EntityData, VRBuilder.Core",
+              "Name": "Reconnecter les câbles.",
+              "FirstStep": {
+                "$ref": "1726"
+              },
+              "Steps": {
+                "$id": "1781",
+                "$type": "System.Collections.Generic.List`1[[VRBuilder.Core.IStep, VRBuilder.Core]], mscorlib",
+                "$values": [
+                  {
+                    "$ref": "1726"
+                  }
+                ]
+              }
+            }
           }
         ]
       },
       "FirstChapter": {
-        "$ref": "1730"
+        "$ref": "1757"
       },
       "Name": "zineb is trying",
       "Mode": null,
