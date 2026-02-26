@@ -178,8 +178,8 @@
           "$id": "34",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": 374.666656,
-            "y": 2.0
+            "x": 612.6667,
+            "y": 473.3333
           },
           "StepType": "default",
           "Guid": "bdf3777f-c6e4-4f4e-90df-a3ca9fd9c123"
@@ -335,8 +335,8 @@
           "$id": "61",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": 522.0,
-            "y": 232.666672
+            "x": 532.0,
+            "y": 539.3334
           },
           "StepType": "default",
           "Guid": "c223522e-047a-4bb4-8ada-6953c449b843"
@@ -555,34 +555,37 @@
                         "$values": [
                           {
                             "$id": "101",
-                            "$type": "VRBuilder.BasicInteraction.Conditions.SnappedCondition, VRBuilder.BasicInteraction",
+                            "$type": "VRBuilder.Core.Conditions.ObjectInRangeCondition, VRBuilder.Core",
                             "Data": {
                               "$id": "102",
-                              "$type": "VRBuilder.BasicInteraction.Conditions.SnappedCondition+EntityData, VRBuilder.BasicInteraction",
-                              "TargetObjects": {
+                              "$type": "VRBuilder.Core.Conditions.ObjectInRangeCondition+EntityData, VRBuilder.Core",
+                              "TargetObject": {
                                 "$id": "103",
-                                "$type": "VRBuilder.Core.SceneObjects.MultipleScenePropertyReference`1[[VRBuilder.BasicInteraction.Properties.ISnappableProperty, VRBuilder.BasicInteraction]], VRBuilder.Core",
+                                "$type": "VRBuilder.Core.SceneObjects.SingleSceneObjectReference, VRBuilder.Core",
                                 "guids": {
                                   "$id": "104",
+                                  "$type": "System.Collections.Generic.List`1[[System.Guid, mscorlib]], mscorlib",
+                                  "$values": [
+                                    "d078ff49-3b5b-40fa-85ec-3e5d0d867f60"
+                                  ]
+                                }
+                              },
+                              "Target": null,
+                              "ReferenceObject": {
+                                "$id": "105",
+                                "$type": "VRBuilder.Core.SceneObjects.SingleScenePropertyReference`1[[VRBuilder.Core.Properties.TransformInRangeDetectorProperty, VRBuilder.Core]], VRBuilder.Core",
+                                "guids": {
+                                  "$id": "106",
                                   "$type": "System.Collections.Generic.List`1[[System.Guid, mscorlib]], mscorlib",
                                   "$values": [
                                     "7c555cd3-1fd2-4d81-a58b-dde9f24b67be"
                                   ]
                                 }
                               },
-                              "Target": null,
-                              "TargetSnapZone": {
-                                "$id": "105",
-                                "$type": "VRBuilder.Core.SceneObjects.SingleScenePropertyReference`1[[VRBuilder.BasicInteraction.Properties.ISnapZoneProperty, VRBuilder.BasicInteraction]], VRBuilder.Core",
-                                "guids": {
-                                  "$id": "106",
-                                  "$type": "System.Collections.Generic.List`1[[System.Guid, mscorlib]], mscorlib",
-                                  "$values": [
-                                    "6bcde057-6591-4384-a144-2233b2e038c7"
-                                  ]
-                                }
-                              },
-                              "ZoneToSnapInto": null,
+                              "ReferenceProperty": null,
+                              "Range": 0.0,
+                              "RequiredTimeInside": 0.0,
+                              "IsCompleted": false,
                               "Metadata": null
                             }
                           }
