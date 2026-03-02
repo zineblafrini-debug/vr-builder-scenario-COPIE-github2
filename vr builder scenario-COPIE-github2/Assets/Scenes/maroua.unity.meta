@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:vr builder scenario-COPIE-github2/Assets/Scenes/maroua.unity.meta
 guid: f8b86df401787194182422ebde34ccf0
 DefaultImporter:
+========
+guid: 871973e095038f0488977dba545239c1
+PrefabImporter:
+>>>>>>>> 704522bb85c1e1218672b663b410c3b74a785c95:vr builder scenario-COPIE-github2/Assets/MindPort/VR Builder/Resources/SnapZones/Prefabs/Cube VIS 1_Highlight.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
