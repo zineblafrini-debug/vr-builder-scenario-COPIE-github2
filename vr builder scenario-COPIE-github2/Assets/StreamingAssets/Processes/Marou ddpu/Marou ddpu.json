@@ -4186,7 +4186,7 @@
                       "AudioData": {
                         "$id": "740",
                         "$type": "VRBuilder.Core.Audio.ResourceAudio, VRBuilder.Core",
-                        "ResourcesPath": "visser"
+                        "ResourcesPath": "visserMB"
                       },
                       "ExecutionStages": 1,
                       "Volume": 1.0,
@@ -6163,13 +6163,13 @@
                 "$id": "1076",
                 "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
                 "Position": {
-                  "x": -211.333328,
-                  "y": 774.0,
+                  "x": 455.333344,
+                  "y": 155.333328,
                   "z": 0.0
                 },
                 "Scale": {
-                  "x": 0.8695652,
-                  "y": 0.8695652,
+                  "x": 0.326901764,
+                  "y": 0.326901764,
                   "z": 1.0
                 }
               }

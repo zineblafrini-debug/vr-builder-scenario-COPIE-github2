@@ -3813,7 +3813,7 @@
                       "AudioData": {
                         "$id": "648",
                         "$type": "VRBuilder.Core.Audio.ResourceAudio, VRBuilder.Core",
-                        "ResourcesPath": "visser"
+                        "ResourcesPath": "visserZL"
                       },
                       "ExecutionStages": 1,
                       "Volume": 1.0,
