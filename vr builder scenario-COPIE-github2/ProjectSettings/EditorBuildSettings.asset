@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ZL Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/maroua.unity
+    guid: f8b86df401787194182422ebde34ccf0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e437d85a14cde664e99d70b44cc3d220, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: e57c04dfe7884d64da736a8cf4b1784f, type: 2}
