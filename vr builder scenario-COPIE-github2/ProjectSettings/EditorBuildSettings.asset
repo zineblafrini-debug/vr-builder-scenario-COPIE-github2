@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Sart scene.unity
     guid: 4825989d14d85844b9a3a4fb10bfe87b
   - enabled: 1
+    path: Assets/Scenes/panel corrective.unity
+    guid: 262b7e23ea68aaa4fbdb2d95722bc472
+  - enabled: 1
     path: Assets/Scenes/ZL Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1

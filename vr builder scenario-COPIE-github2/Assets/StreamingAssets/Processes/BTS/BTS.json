@@ -20504,8 +20504,8 @@
           "$id": "3597",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": -24.8,
-            "y": 55.2
+            "x": -336.6667,
+            "y": -70.0
           },
           "StepType": "default",
           "Guid": "49ad0d6d-7c74-4a8f-a101-f441ca1c1c4d"
@@ -59736,13 +59736,13 @@
                 "$id": "10451",
                 "$type": "VRBuilder.Core.ViewTransform, VRBuilder.Core",
                 "Position": {
-                  "x": 418.4,
-                  "y": -37.6,
+                  "x": 408.666656,
+                  "y": -73.3333359,
                   "z": 0.0
                 },
                 "Scale": {
-                  "x": 0.497176737,
-                  "y": 0.497176737,
+                  "x": 1.0,
+                  "y": 1.0,
                   "z": 1.0
                 }
               }
