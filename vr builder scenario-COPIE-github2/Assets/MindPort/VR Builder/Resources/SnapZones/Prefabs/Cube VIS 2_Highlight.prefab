@@ -32,7 +32,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7720518004652019290}
-  - {fileID: 711222917375946613}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2727657970328679761
@@ -85,37 +84,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573029165934664328}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2701728533085671510
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 711222917375946613}
-  m_Layer: 0
-  m_Name: animation vis2_Highlight.prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &711222917375946613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2701728533085671510}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.71842146, y: -0, z: -0, w: 0.69560814}
-  m_LocalPosition: {x: -0.12830414, y: -0.010981105, z: -2.7243185}
-  m_LocalScale: {x: 1.2623076, y: 0.70137775, z: 1.3132488}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 940025908113650491}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4106009381140185621
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4106009381140185621}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -224,8 +192,8 @@ Transform:
   m_GameObject: {fileID: 4758194136892423158}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6956082, z: -0.7184214, w: 0}
-  m_LocalPosition: {x: -0.014713547, y: 0.010275178, z: -0.19962606}
-  m_LocalScale: {x: -0.42547294, y: -0.23640591, z: -0.44264278}
+  m_LocalPosition: {x: -0.009652025, y: 0.005502427, z: -0.14642711}
+  m_LocalScale: {x: -0.2791086, y: -0.17336985, z: -0.237163}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2231723004491586020}
