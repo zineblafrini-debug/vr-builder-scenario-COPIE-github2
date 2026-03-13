@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &337801006081656859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9151104620840766308}
-  m_Layer: 0
-  m_Name: animation vis 1_Highlight.prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9151104620840766308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337801006081656859}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7184214, y: -0, z: -0, w: 0.6956082}
-  m_LocalPosition: {x: 0.007833834, y: -0.010981105, z: -2.7243185}
-  m_LocalScale: {x: 1.2623075, y: 0.7013778, z: 1.313248}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 466910365849212689}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6086946237602531355
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,8 +25,8 @@ Transform:
   m_GameObject: {fileID: 6086946237602531355}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6956082, z: -0.7184214, w: 0}
-  m_LocalPosition: {x: 0.020438273, y: 0.009020194, z: -0.22065401}
-  m_LocalScale: {x: -0.4254729, y: -0.23640594, z: -0.44264257}
+  m_LocalPosition: {x: 0.013355729, y: 0.005894396, z: -0.14419001}
+  m_LocalScale: {x: -0.27803245, y: -0.15448342, z: -0.2892522}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2098143620879253087}
@@ -179,7 +148,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8266736165212427489}
-  - {fileID: 9151104620840766308}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1174954336710144668
